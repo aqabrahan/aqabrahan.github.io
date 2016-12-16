@@ -11,7 +11,7 @@
 
 ## Generar html, js y css:
 Build:
-- npm run build
+- npm run build  o   gulp build
 
 Modo productivo:
 - abrir en un navegador el index.html
