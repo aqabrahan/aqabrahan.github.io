@@ -73,7 +73,7 @@ gulp.task('scripts', ['eslint'], function() {
         tobuild + "js/tiny.min.js",
         tobuild + "js/chico.min.js",
         tobuild + "js/app.js"])
-    .pipe(concat('app.js'))
+    .pipe(concat('app.min.js'))
     .pipe(uglify())
     .pipe(gulp.dest('./public/js/'));
 });
